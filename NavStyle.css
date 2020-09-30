@@ -1,0 +1,98 @@
+
+
+#topnav{
+padding: -10px;
+align-right;
+height: 50px;
+background: #c83349;
+margin:-10px;
+border-bottom: 2px dotted black;
+}
+
+#topnav li{
+  display: inline;
+text-decoration: none;
+padding-right: 0px;
+float:right;
+color: #c83349;
+
+
+
+
+}
+#topnav li:hover{
+  background-color:white;
+
+}
+#topnav li a{
+
+text-decoration: none;
+color:#82b74b;
+font-size: 30px;
+font-family: cursive;
+word-spacing: normal;
+
+
+
+
+}
+
+#menuNav {
+  height: 700px;
+  width: 120px;
+  background-color: #c83349;
+  font-size: 30px;
+  color: #c83349;
+  margin:-10px;
+  padding-right: 25px;
+  float:left;
+  z-index:-999; /* negative z-index pushes an tag to the background*/
+  border-right: 2px dotted black;
+  font-family: cursive;
+
+
+}
+
+#menuNav li{
+  padding-top: 25px;
+  list-style: none; <!-- gets rid of bullets -->
+  font-family:fantasy;
+    margin-left: -22;
+    color: #c83349;
+}
+
+#menuNav li:hover{
+  background-color:white;
+  padding: -1000;
+
+
+}
+
+body {
+  background-color: #ffb77c;
+}
+
+img {
+  height: 350px;
+  width: 600px;
+  border: 5px solid black;
+}
+li{
+  list-style: none;
+  font-family:inherit;
+  font-weight: bold;
+
+}
+
+p{
+  font-family:inherit;
+  font-weight: bold;
+  font-size: 20px;
+}
+#menuNav li a{
+  color: #82b74b;
+}
+h1{
+  font-family: cursive;
+  font-size: 45px;
+}
